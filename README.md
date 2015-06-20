@@ -27,4 +27,4 @@ Include the default recipe on a node's runlist to ensure that PowerGUI is instal
 
 Authors
 =======
-# I adopted this cookbook
+I adopted this cookbook
