@@ -10,6 +10,8 @@ platforms:
     driver_config:
       box_url: opentable/win-2012r2-standard-amd64-nocm
       vm_hostname: false
+    transport:
+      name: winrm
 
 suites:
   - name: default
