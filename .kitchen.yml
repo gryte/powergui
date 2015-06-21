@@ -6,9 +6,9 @@ provisioner:
   name: chef_zero
 
 platforms:
-  - name: opentable/win-2012r2-standard-amd64-nocm
+  - name: windows-2012R2
     driver_config:
-      box_url: opentable/win-2012r2-standard-amd64-nocm
+      box_url: https://wrock.blob.core.windows.net/vhds/vbox2012r2.box
       vm_hostname: false
     transport:
       name: winrm
