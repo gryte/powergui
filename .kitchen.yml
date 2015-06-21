@@ -6,7 +6,7 @@ provisioner:
   name: chef_zero
 
 platforms:
-  - name: windows-2012R2
+  - name: opentable/win-2012r2-standard-amd64-nocm
     driver_config:
       box_url: opentable/win-2012r2-standard-amd64-nocm
       vm_hostname: false
