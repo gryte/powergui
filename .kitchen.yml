@@ -9,6 +9,8 @@ platforms:
   - name: windows
     driver:
       box: opentable/win-2008r2-standard-amd64-nocm
+      network:
+      - ["forwarded_port", {guest: 3389, host: 33389}]
 
 suites:
   - name: default
