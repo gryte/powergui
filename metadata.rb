@@ -6,5 +6,5 @@ description 'Installs/Configures PowerGUI for Windows'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 name 'powergui'
 version '1.0.0'
-supports 'windows'
+# supports 'windows'
 depends 'windows'

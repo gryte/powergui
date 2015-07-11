@@ -16,6 +16,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+include_recipe 'powergui::dotnet'
+
 if platform?("windows")
   if !File.exists?("C:/Program Files (x86)/PowerGUI/ScriptEditor.exe")
     windows_package "Quest PowerGUI 3.2" do

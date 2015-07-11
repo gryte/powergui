@@ -16,6 +16,6 @@ suites:
   - name: default
     run_list:
 
-      - recipe[powergui::default]
+     - recipe[powergui::default]
 
     attributes:
