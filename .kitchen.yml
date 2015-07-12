@@ -16,7 +16,11 @@ platforms:
       box: opentable/win-2012r2-standard-amd64-nocm
       network:
       - ["forwarded_port", {guest: 3389, host: 43389}]
-
+  - name: windows-7
+    driver:
+      box: ferventcoder/win7pro-x64-nocm-lite
+      network:
+      - ["forwarded_port", {guest: 3389, host: 53389}]
 
 suites:
   - name: default
