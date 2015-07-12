@@ -6,11 +6,17 @@ provisioner:
   name: chef_zero
 
 platforms:
-  - name: windows
+  - name: windows-2008r2
     driver:
       box: opentable/win-2008r2-standard-amd64-nocm
       network:
       - ["forwarded_port", {guest: 3389, host: 33389}]
+  - name: windows-2012r2
+    driver:
+      box: opentable/win-2012r2-standard-amd64-nocm
+      network:
+      - ["forwarded_port", {guest: 3389, host: 43389}]
+
 
 suites:
   - name: default
