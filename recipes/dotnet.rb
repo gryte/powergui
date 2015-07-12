@@ -12,8 +12,8 @@ when 'windows'
     end
   end
 
-  # Use powershell resource to manage feature on Windows 2012r2 or Windows 8.1
-  if windows_version.windows_server_2012_r2? || windows_version.windows_8_1?
+  # Use powershell resource to manage feature on Windows 2012r2
+  if windows_version.windows_server_2012_r2?
     powershell_script 'dotNet35' do
       code 'Install-WindowsFeature -name Net-Framework-Core'
       guard_interpreter :powershell_script
