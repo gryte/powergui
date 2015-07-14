@@ -7,3 +7,7 @@
 
 ## 1.1.1:
 * Added Windows 7 test kitchen platform
+
+## 1.1.2:
+* Added serverspec tests
+* Still looking for a way to determine Windows release version during testing since the .net 3.5 install can vary
