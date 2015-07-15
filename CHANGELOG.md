@@ -11,3 +11,6 @@
 ## 1.1.2:
 * Added serverspec tests
 * Still looking for a way to determine Windows release version during testing since the .net 3.5 install can vary
+
+## 1.1.3:
+* Added kitchen-pester driver to gem file in prep for future pester test scripts
