@@ -18,7 +18,7 @@ platforms:
       - ["forwarded_port", {guest: 3389, host: 43389}]
   - name: windows-7
     driver:
-      box: ferventcoder/win7pro-x64-nocm-lite
+      box: opentable/win-7-professional-amd64-nocm
       network:
       - ["forwarded_port", {guest: 3389, host: 53389}]
       - ["forwarded_port", {guest: 5985, host: 55985}]
